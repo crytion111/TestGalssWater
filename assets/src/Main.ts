@@ -64,7 +64,7 @@ export default class Main extends cc.Component {
     private generateWater()
     {
         this.resetWater();
-        for (let index = 0; index < 1000; index++)
+        for (let index = 0; index < 120; index++)
         {
             let node_water = this._water_pool.shift();
             if (!node_water)
